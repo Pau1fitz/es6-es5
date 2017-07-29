@@ -9,3 +9,5 @@ let sayName = () => {
 //spread operator
 let arr = [1, 2, 3];
 let arrTwo = [...arr, 4, 5, 6];
+
+let add = (a, b) => a + b;

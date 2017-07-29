@@ -90,6 +90,10 @@ var sayName = function sayName() {
 var arr = [1, 2, 3];
 var arrTwo = [].concat(arr, [4, 5, 6]);
 
+var add = function add(a, b) {
+  return a + b;
+};
+
 /***/ }),
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
