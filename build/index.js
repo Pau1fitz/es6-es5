@@ -67,16 +67,39 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(1);
+module.exports = __webpack_require__(2);
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
+//constant
 var name = "Paul";
+
+//arrow function
 var sayName = function sayName() {
   alert(name);
 };
 
+//spread operator
 var arr = [1, 2, 3];
-var arrTwo = [].concat(arr, [4, 5]);
+var arrTwo = [].concat(arr, [4, 5, 6]);
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var sayBye = function sayBye() {
+  return alert('bye!');
+};
 
 /***/ })
 /******/ ]);

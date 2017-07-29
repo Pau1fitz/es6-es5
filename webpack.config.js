@@ -1,5 +1,9 @@
+var glob = require("glob");
+
 module.exports = {
-    entry: './src/index.js',
+    entry: {
+      js: glob.sync("./src/*.js"),
+    },
     output: {
         filename: './build/index.js'
     },
