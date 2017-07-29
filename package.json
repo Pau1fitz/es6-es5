@@ -1,0 +1,30 @@
+{
+  "name": "es5-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pau1fitz/es5-es6.git"
+  },
+  "keywords": [
+    "complie",
+    "es5",
+    "es6"
+  ],
+  "author": "Paul Fitzgerald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pau1fitz/es5-es6/issues"
+  },
+  "homepage": "https://github.com/Pau1fitz/es5-es6#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
