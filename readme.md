@@ -2,7 +2,7 @@
 
 -----
 
-The is a quick setup using webpack to watch your files and to compile your code from ES5 to ES6.
+The is a quick setup using webpack to watch your files and to compile your code from ES6 to ES5.
 
 ## Instructions
 * Clone this repo and run `npm install`.
