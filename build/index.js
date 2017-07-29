@@ -75,5 +75,8 @@ var sayName = function sayName() {
   alert(name);
 };
 
+var arr = [1, 2, 3];
+var arrTwo = [].concat(arr, [4, 5]);
+
 /***/ })
 /******/ ]);
