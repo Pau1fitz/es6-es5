@@ -1,4 +1,4 @@
-# Convert ES5 to ES6 using webpack
+# Convert ES6 to ES5 using webpack
 
 -----
 
